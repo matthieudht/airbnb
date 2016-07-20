@@ -1,0 +1,334 @@
+/*****************************************
+****************************************
+**************  Mobil fisrt  ****************
+********************************************
+***********************************************/
+
+
+/****************************************
+****************  header   *****************/
+
+header {
+
+}
+
+nav {
+  display: flex;
+  font-size: 0.6rem;
+  color: #ff5e63;
+  background-color: #fff;
+}
+
+.video-header {
+  display:flex;
+  flex-direction: column;
+  flex-wrap:wrap;
+  justify-content:space-around;
+  align-items: center;
+  background: url('img/P1F1.jpg') no-repeat;
+  background-size: cover;
+  min-height: 350px;
+
+}
+.play-btn {
+  height:60px;
+  width:60px;
+  padding:0;
+}
+
+.video-header img, .video-header h2, .video-header p {
+  margin: auto;
+  color: #fff;
+}
+
+header button.btn.btn-secondary {
+  padding:0;
+}
+header p {
+  font-family: Circular;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/****************************************
+****************  header   **************/
+
+
+
+
+
+/****************************************
+****************  section   *****************/
+/* fisrt article "welcome" */
+.welcome{
+  background: url('img/welcome.jpg') no-repeat;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.welcome h3 {
+  color:#fff;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 10%;
+}
+
+.welcome p {
+  color:#fff;
+  margin:10%;
+  font-weight: 600;
+
+}
+
+.welcome a {
+  color:#fff;
+  background: #009aab;
+  width: 65%;
+  height:35px;
+}
+/* fisrt article "welcome" */
+
+
+/*article tarnsition*/
+
+.transition {
+  color: rgb(72,72,72);
+  padding:10px;
+}
+/*article tarnsition*/
+
+/*article with gant anvers and brussel*/
+
+.gant {
+    background: url('img/gant.jpg') no-repeat;
+}
+
+.bruxelles {
+  background: url('img/bruxelles.jpg') no-repeat;
+}
+
+.anvers {
+  background: url('img/anvers.jpeg') no-repeat;
+}
+.gant, .bruxelles, .anvers {
+  background-size: cover;
+  min-height: 340px;
+  display: flex;
+
+}
+
+.town h3 {
+  margin: auto;
+  color: #fff;
+  font-weight: bold;
+}
+
+/*article with gant anvers and brussel*/
+
+/*article with amsterdam rome*/
+
+.amsterdam {
+  background: url('img/amsterdam.jpg') no-repeat;
+}
+
+.rome {
+  background: url('img/rome.jpg') no-repeat;
+}
+
+.people1 {
+  background: url('img/house-amsterdam.jpg') no-repeat;
+}
+
+.people2 {
+  background: url('img/house-budapest.jpg')
+}
+.amsterdam, .rome, .people1, .people2 {
+  background-size: cover;
+  min-height: 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.town-name {
+  margin: auto;
+  color: #fff;
+}
+
+.price {
+  color: #fff;
+  background: #4f4c49;
+  width: 65px;
+  height: 45px;
+  padding-top: 5px;
+  font-size: 1.2em;
+}
+
+.people1 img, .people2 img {
+  width:60px;
+  border-radius: 100%;
+}
+
+
+/*article with amsterdam rome*/
+
+/****************************************
+****************  section   *****************/
+
+
+
+/****************************************
+****************  footer   *****************/
+footer {
+  background: url('img/footer1.PNG')
+}
+
+footer li {
+  list-style: none;
+  border: 1px solid white;
+  border-radius: 100% 100%;
+  width: 40px;
+  height: 40px;
+}
+
+footer a {
+  font-size: 1.2em;
+  color:#fff;
+  margin-left: 15px;
+  padding-top: 10px;
+}
+
+
+/****************************************
+****************  footer   *****************/
+
+
+
+
+/*****************************************
+****************************************
+**************  For tab ****************
+********************************************
+**********************************************/
+
+
+
+
+/****************************************
+****************  header   *****************/
+
+.search-bar {
+  width: 80%;
+}
+
+div.search-bar2 input {
+  width: 200px;
+}
+/****************************************
+****************  header   *****************/
+
+
+
+
+
+/****************************************
+****************  section  *****************/
+.gant {
+  width: 100%;
+  margin:auto;
+}
+
+.bruxelles {
+  width: 47%;
+  margin-right:6%;
+  margin-top: 20px;
+}
+
+.anvers {
+  width:47%;
+  margin-top: 20px;
+
+}
+
+.town {
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.amsterdam {
+  width: 100%;
+  margin:auto;
+}
+
+.people1 {
+  width: 47%;
+  margin-right:6%;
+  margin-top: 20px;
+}
+
+.rome {
+  width: 47%;
+  margin-top: 20px;
+}
+
+.people2 {
+  width: 100%;
+  margin:auto;
+  margin-top: 20px;
+}
+/****************************************
+****************  section  *****************/
+
+
+
+
+/****************************************
+****************  footer  *****************/
+
+
+/****************************************
+****************  footer   *****************/
+
+
+
+
+
+
+
+/*****************************************
+****************************************
+**************  For DESKTOP: ;****************
+********************************************
+**********************************************/
+
+
+
+
+/****************************************
+****************  header   *****************/
+
+
+/****************************************
+****************  header   *****************/
+
+
+
+
+/****************************************
+****************  section   *****************/
+
+
+/****************************************
+****************  section  *****************/
+
+
+
+
+/****************************************
+****************  footer  *****************/
+
+
+/****************************************
+****************  footer   *****************/
